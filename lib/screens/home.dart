@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xff010101),
       body: Stack(
-        children: [
+        children: <Widget>[
           Positioned.fill(
             child: SingleChildScrollView(
               child: Column(
